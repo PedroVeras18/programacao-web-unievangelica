@@ -1,0 +1,17 @@
+/* Define a base de estilos do Tailwind CSS */
+@tailwind base;
+
+/* Importa os estilos dos componentes do Tailwind CSS */
+@tailwind components;
+
+/* Importa os utilitários do Tailwind CSS */
+@tailwind utilities;
+
+/* Define estilos globais para todos os elementos */
+
+/* Reseta as margens, preenchimentos e define a caixa de modelo para 'border-box' */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
